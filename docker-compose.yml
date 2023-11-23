@@ -1,0 +1,20 @@
+version: '3.7'
+services:
+  app:
+    image: jaadarix/elyadata_project:latest
+    ports:
+      - "8000:8000"
+    depends_on:
+      - mongo
+    environment:
+      - MONGODB_URI=mongodb://mongo:27017/scraping_db
+
+  mongo:
+    image: mongo
+    volumes:
+      - mongo-data:/data/db
+    ports:
+      - "27017:27017"
+
+volumes:
+  mongo-data:
