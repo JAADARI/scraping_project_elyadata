@@ -71,10 +71,27 @@ To pull and build the Docker image, run:
     sudo docker pull jaadarix/elyadata_project:final
     sudo docker build -t jaadarix/elyadata_project:final .
     
+## Screenshots of the project:
+### Running the Docker-compose to start both services(App,Mongo):
+
+![dockercompose](https://github.com/JAADARI/scraping_project_elyadata/assets/78422942/e289f424-602e-4705-884f-08da0fc7305d)
+
+### Request using Curl Command:
+
+![scraping succes](https://github.com/JAADARI/scraping_project_elyadata/assets/78422942/ef2b4e57-0511-4bc8-b23b-fd8730edb4bf)
+
+### Preview of the Scraped data:
+
+![scraping](https://github.com/JAADARI/scraping_project_elyadata/assets/78422942/e95fafd0-1b19-43e1-bd28-90cd80e75f3e)
+
+### Checking if the data was succefully added to the containerized database:
+
+![dbmongo](https://github.com/JAADARI/scraping_project_elyadata/assets/78422942/1989d218-40be-4277-9c89-a19be330d2e7)
+
+
+
 ## Connect with Me
 
 - [LinkedIn](https://www.linkedin.com/in/jaadarix/)
 - [Zindi](https://zindi.africa/users/JAADARIX)
-        
-
 
